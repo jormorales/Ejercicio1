@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1</title>
+</head>
+<body>
+    <!--Títulos-->
+    <div style="border: 1px solid blue">
+    <h1>Solicitud de registro como usuario</h1>
+    <h2>Llene los siguientes datos</h2>
+    </div>
+    <!--Formulario-->
+    <div style="border: 2px solid lightgreen">
+    <img src="images.jpg" ALIGN="right"/>
+    <p>Nombre: <input type="text" placeholder="introduzca su nombre"></p>
+    <p>Apellidos: <input type="text" placeholder="introduzca sus apellidos"></p>
+    <label for="email">Correo electrónico: </label>
+    <input type="email" name="email" id="email" placeholder="ejemplo: usuario@abc.com">
+    <p><form method="post" action="action.php">
+            Contraseña: <input name="contrasena" type="password" value="123456" placeholder="ingrese su contraseña"/>
+        </form>
+    </p>
+    <p>
+        <form method="post" action="action.php" >
+            Observaciones:<br /><textarea name="comentarios" rows="3" cols="50" placeholder="Ingrese sus comentarios aquí"></textarea> 
+        </form>
+    </p>
+    <hr>
+    <form method="get" action="gracias.html">
+        <input type="submit" value="Enviar formulario"> </input>
+    </form>
+    <hr>
+    </div>
+    <!--Pie de Página-->
+    <div style="border: 2px solid rgb(216, 152, 55); background-color: black;">
+        <p style="text-align: center; background-color: black; color:rgb(216, 152, 55)">© 2021 Derechos Reservados -jormorales-</p>
+        <img width="50" height="50"src="image013.png" alt="Derechos Reservados">
+    </div>
+</body>
+</html>
